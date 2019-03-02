@@ -19,9 +19,9 @@ puppet -
 Vagrantfile
 
 ## How to run
-'''bash
+```bash
 vagrant up
-'''
+```
 
 ## Issues
 Noticed a couple of issues related to Virtualbox not functioning as expected (timeouts and network adaptor issues) and all in all wasn't the happiest with this solution so instead went ahead an created a dockerize minikube python version of this task which worked as planned and can be found at: [AL-HelloWorld](https://github.com/leeclench/al-helloworld)
