@@ -1,0 +1,6 @@
+# User privilege specification
+root ALL = (ALL) ALL
+# Gives users in the admin group root access with password
+%admin ALL = (ALL) ALL
+# Vagrant user added to not require password for sudo actions + root level privs
+vagrant ALL = (ALL) NOPASSWD:ALL
