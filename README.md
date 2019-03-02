@@ -3,8 +3,8 @@
 This repo houses a Vagrant driven puppetized nginx application that runs a generated script that produces a hello world html page. The vagrantfile and nginx.pp files are commented to explain the process and how the application functions.
 
 ## Requirements
-Vagrant
-Virtualbox
+- Vagrant
+- Virtualbox
 
 ## File Tree
 puppet -
