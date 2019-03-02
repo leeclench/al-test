@@ -7,6 +7,7 @@ This repo houses a Vagrant driven puppetized nginx application that runs a gener
 - Virtualbox
 
 ## File Tree
+```
 puppet -
     manifests -
         nginx.pp (Installs nginx, creates a basic helloworld html and runs on the service)
@@ -17,6 +18,7 @@ puppet -
             manifest -
                 init.pp (Manages the sudoers file)
 Vagrantfile
+```
 
 ## How to run
 ```bash
